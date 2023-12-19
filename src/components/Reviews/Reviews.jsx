@@ -47,13 +47,13 @@ const Reviews = () => {
       const newReview = {
         id: reviews.length + 1,
         description: reviewText,
-        img: [], // Загрузка изображений может потребовать другой логики
+        img: [],
         name: reviewerName,
       };
       setReviews([newReview, ...reviews]);
     }
 
-    // Очистить форму после отправки
+   
     setReviewText("");
     setReviewerName("");
   };
