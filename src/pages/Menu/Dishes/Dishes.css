@@ -48,7 +48,7 @@ ul.navigation-links-dishes {
   top: 20%;
   left: 0;
   transform: translateY(-50%);
-  margin-left: 20px; /* Добавляем отступ слева, чтобы не прилипало к краю */
+  margin-left: 20px;
 }
 
 ul.navigation-links-dishes li {
